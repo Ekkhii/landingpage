@@ -50,3 +50,73 @@ Processing by PagesController#index as HTML
 Completed 200 OK in 2021ms (Views: 1990.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-05-10 12:42:35 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 388ms (Views: 363.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-10 13:10:17 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 527ms (ActiveRecord: 0.0ms)
+
+
+
+ActionView::MissingTemplate - Missing partial google/_googletag with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Manu/Desktop/THP/06-semaine6/landingpage/app/views"
+:
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___2155449343415056834_70187702120380'
+
+Started POST "/__better_errors/656f6ecb9f098130/variables" for 127.0.0.1 at 2018-05-10 13:10:17 +0200
+Started GET "/" for 127.0.0.1 at 2018-05-10 13:11:27 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 211ms (ActiveRecord: 0.0ms)
+
+
+
+ActionView::MissingTemplate - Missing partial google/_googletag with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Manu/Desktop/THP/06-semaine6/landingpage/app/views"
+:
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___3641073979939118275_70143592043000'
+
+Started POST "/__better_errors/3e1c49718a902f5b/variables" for 127.0.0.1 at 2018-05-10 13:11:27 +0200
+Started GET "/" for 127.0.0.1 at 2018-05-10 13:12:17 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 214ms (ActiveRecord: 0.0ms)
+
+
+
+ActionView::MissingTemplate - Missing partial pages/_googletag, application/_googletag with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Manu/Desktop/THP/06-semaine6/landingpage/app/views"
+:
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb__2014995065874632452_70280556297280'
+
+Started POST "/__better_errors/cf80b47f3a169160/variables" for 127.0.0.1 at 2018-05-10 13:12:18 +0200
+Started GET "/" for 127.0.0.1 at 2018-05-10 13:13:16 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 222ms (ActiveRecord: 0.0ms)
+
+
+
+ActionView::MissingTemplate - Missing partial pages/_googletag, application/_googletag with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/Manu/Desktop/THP/06-semaine6/landingpage/app/views"
+:
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___3211593538900086333_70161147476200'
+
+Started POST "/__better_errors/79f222a7d9764137/variables" for 127.0.0.1 at 2018-05-10 13:13:17 +0200
+Started GET "/" for 127.0.0.1 at 2018-05-10 13:14:04 +0200
+Processing by PagesController#index as HTML
+  Rendering pages/index.html.erb within layouts/application
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 269ms (Views: 250.1ms | ActiveRecord: 0.0ms)
+
+
